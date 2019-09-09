@@ -1,21 +1,20 @@
-#UNITS CONVERSION APPLICATION
+#### UNITS CONVERSION APPLICATION
 
 This application converts the basic imperial and metric conversions and currency convetrsions too.
 
 
 ### Prerequisites
 
-*ANDROID STUDIO(version 3.0 or above).
-*Enable virtual view through bios if it is not enabled.
+* ANDROID STUDIO(version 3.0 or above).
+* Enable virtual view through bios if it is not enabled.
 
 ### Installing
 
-*Download the latest android studio version from google.
-*Click on file->new->new project and give specified name for your project.
-*copy and paste the files into the local repository and execute the code.
+* Download the latest android studio version from google.
+* Click on file->new->new project and give specified name for your project.
+* copy and paste the files into the local repository and execute the code.
 
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## BUILD
 
