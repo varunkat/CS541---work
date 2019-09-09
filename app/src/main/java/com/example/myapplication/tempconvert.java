@@ -33,6 +33,11 @@ public class tempconvert extends AppCompatActivity {
     }
 
     public void convert(android.view.View view) {
+        if (temp.getText().length() == 0) {
+            temp.setError("please enter a value");
+        }
+        else
+        {
         double value = new Double(temp.getText().toString());
         if(FtoC.isChecked())
             value = tempconvert.farenheit2celcius(value);
@@ -41,5 +46,5 @@ public class tempconvert extends AppCompatActivity {
 
         temp.setText(new Double(value).toString());
     }
-}
+}}
 

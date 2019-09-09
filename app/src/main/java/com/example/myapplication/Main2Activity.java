@@ -15,6 +15,7 @@ import android.widget.Button;
 public class Main2Activity extends AppCompatActivity {
     private Button button6;
     private Button length;
+    private Button mass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class Main2Activity extends AppCompatActivity {
 
         button6 = (Button) findViewById(R.id.button6);
         length = (Button) findViewById(R.id.length);
+        mass = (Button) findViewById(R.id.mass);
 
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +39,12 @@ public class Main2Activity extends AppCompatActivity {
                 openlenconv();
             }
         });
+        mass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openmassconv();
+            }
+        });
     }
 
     public void opentempconvert() {
@@ -46,6 +54,10 @@ public class Main2Activity extends AppCompatActivity {
 
     public void openlenconv() {
         Intent intent = new Intent(this,lenconv.class);
+        startActivity(intent);
+    }
+    public void openmassconv() {
+        Intent intent = new Intent(this,massconv.class);
         startActivity(intent);
     }
 

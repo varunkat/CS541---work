@@ -38,6 +38,11 @@ public class currencyconv extends AppCompatActivity {
     }
 
     public void display(android.view.View view) {
+        if (temp1.getText().length() == 0) {
+            temp1.setError("please enter a value");
+        }
+        else
+        {
         double value1 = new Double(temp1.getText().toString());
         if(toINR.isChecked())
             value1 = currencyconv.toINR(value1);
@@ -50,4 +55,4 @@ public class currencyconv extends AppCompatActivity {
 
         temp1.setText(new Double(value1).toString());
     }
-}
+}}

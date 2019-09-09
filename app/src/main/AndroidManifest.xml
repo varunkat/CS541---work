@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".lenconv"></activity>
+        <activity android:name=".massconv"></activity>
+        <activity android:name=".lenconv" />
         <activity android:name=".currencyconv" />
         <activity android:name=".tempconvert" />
         <activity
