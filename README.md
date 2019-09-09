@@ -24,7 +24,7 @@ implementation of Radio buttons and spinners with different values are displayed
 
 ### test cases
 
-Every exception handling is implemented. (Ex:trying to convert the units without entering any value will throw a error message.
+Every exception handling is implemented. (Ex:trying to convert the units without entering any value will throw a error message.)
  
 
 ###  coding style 
